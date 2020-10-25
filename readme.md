@@ -51,7 +51,7 @@ As you might be familiar with the fact that computers are good at performing cal
 ### Importing Libraries:
 We will first import the relevant libraries. Some of the most important libraries that have been used here are as below.
 
-![](SS\ss2.png)
+![](SS\sss.png)
  
 ### Creating Custom Functions:
 We will create custom Functions so that it is easy for us to implement afterwards.
