@@ -22,9 +22,9 @@ You need to do little tweaks if you want to access files or datasets that are st
 4. paste the link anywhere (preferrabally in notepad) & extract the file ID
 5. the file ID can be obtained from the link. The file ID is alphanumeric characters between /d/ and /view?usp=sharing
 6. Paste File ID here  
-7. You can replace the intents.json filename to whatever you want
+7. You can replace the intents.json filename to whatever you want.
 
-![](SS\ss1.png)
+![t](SS\ss1.png)
 
 ## Introduction
 ---
@@ -49,14 +49,14 @@ As you might be familiar with the fact that computers are good at performing cal
     Preprocessing in NLP is quite different from traditional Machine Learning or Deep Learning. 
 
 ### Importing Libraries:
-We will first import the relevant libraries. Some of the most important libraries that have been used here are as below
+We will first import the relevant libraries. Some of the most important libraries that have been used here are as below.
 
 ![](SS\ss2.png)
  
 ### Creating Custom Functions:
-We will create custom Functions so that it is easy for us to implement afterwards
+We will create custom Functions so that it is easy for us to implement afterwards.
  
- ![](SS\ss4.png)
+![](SS\ss4.png)
 
 
 Nltk or natural language took kit is a really useful library that contains important classes that will be useful in any of your NLP task. 
@@ -64,6 +64,7 @@ Nltk or natural language took kit is a really useful library that contains impor
 ### Stemming
 
 If we have 3 words like “walk”, “walked”, “walking”, these might seem different words but they generally have the same meaning and also have the same base form; “walk”. So, in order for our model to understand all different form of the same words we need to train our model with that form. This is called Stemming. There are different methods that we can use for stemming. Here we will use Porter Stemmer model form our NLTK Library. 
+
 ![](SS\ss3.png)
 
 
@@ -105,11 +106,12 @@ This will separate all the tags & words into their separate lists
 
 ### Implementing custom Functions
 
- ![](SS\ss8.png)
+![](SS\ss8.png)
  
 ### Creating Training Data: 
 We will transform the data into a format that our PyTorch Model can Easily Understand
- ![](SS\ss9.png)
+
+![](SS\ss9.png)
  
     One hot encoding Is the process of splitting multiclass or multi valued data column to separate columns and labelling the cell 1 in the row where it exists. (we won’t use it so don’t worry about it)
 
@@ -140,7 +142,7 @@ Activation functions are useful because they add non-linearities into neural net
 ### ReLU Function:
 There are a number of widely used activation functions in deep learning today. One of the simplest is the rectified linear unit, or ReLU function, which is a piecewise linear function that outputs zero if its input is negative, and directly outputs the input otherwise:
 
- ![](SS/ss10.png)
+![](SS/ss10.png)
  
 Mathematical definition of the ReLU Function
 
@@ -167,7 +169,7 @@ We will use some Magic functions, write our class.
 
 You can read online about `__getitem__` and `__getitem__` magic funtions. 
 
- ![](SS/ss14.png)
+![](SS/ss14.png)
 
 ###	Hyper Parameters:
 Every Neural network has a set of hyper parameters that need to be set before use. 
