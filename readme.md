@@ -23,7 +23,8 @@ You need to do little tweaks if you want to access files or datasets that are st
 5. the file ID can be obtained from the link. The file ID is alphanumeric characters between /d/ and /view?usp=sharing
 6. Paste File ID here  
 7. You can replace the intents.json filename to whatever you want
-![](file:///D:\Projects\Pytorch\Chatbot%20with%20Pytorch\SS\ss1.png)
+
+![](SS\ss1.png)
 
 ## Introduction
 ---
@@ -50,12 +51,12 @@ As you might be familiar with the fact that computers are good at performing cal
 ### Importing Libraries:
 We will first import the relevant libraries. Some of the most important libraries that have been used here are as below
 
-![](file:///D:\Projects\Pytorch\Chatbot%20with%20Pytorch\SS\ss2.png)
+![](SS\ss2.png)
  
 ### Creating Custom Functions:
 We will create custom Functions so that it is easy for us to implement afterwards
  
- ![](file:///D:\Projects\Pytorch\Chatbot%20with%20Pytorch\SS\ss4.png)
+ ![](SS\ss4.png)
 
 
 Nltk or natural language took kit is a really useful library that contains important classes that will be useful in any of your NLP task. 
@@ -63,7 +64,7 @@ Nltk or natural language took kit is a really useful library that contains impor
 ### Stemming
 
 If we have 3 words like “walk”, “walked”, “walking”, these might seem different words but they generally have the same meaning and also have the same base form; “walk”. So, in order for our model to understand all different form of the same words we need to train our model with that form. This is called Stemming. There are different methods that we can use for stemming. Here we will use Porter Stemmer model form our NLTK Library. 
-![](file:///D:\Projects\Pytorch\Chatbot%20with%20Pytorch\SS\ss3.png)
+![](SS\ss3.png)
 
 
 ### Bag of Words:
@@ -85,30 +86,30 @@ During the the process , we will also use ***nltk.word_tokenize()*** which will 
 
 We will be using a data set called ***intents.json*** which has the following structure.
 
-![](file:///D:\Projects\Pytorch\Chatbot%20with%20Pytorch\SS\ss5.png)
+![](SS\ss5.png)
  
 
 Seems familiar? If you noticed , this looks similar to nested dictionary in python. That’s how **JSON** is formatted. 
 Now we will simply load the json file using ***json.load()*** function.
 
- ![](file:///D:\Projects\Pytorch\Chatbot%20with%20Pytorch\SS\ss6.png)
+ ![](SS\ss6.png)
 
 
 
 In order to get the right information, we will be unpacking it with the following code. 
 
-![](file:///D:\Projects\Pytorch\Chatbot%20with%20Pytorch\SS\ss7.png)
+![](SS\ss7.png)
  
 
 This will separate all the tags & words into their separate lists
 
 ### Implementing custom Functions
 
- ![](file:///D:\Projects\Pytorch\Chatbot%20with%20Pytorch\SS\ss8.png)
+ ![](SS\ss8.png)
  
 ### Creating Training Data: 
 We will transform the data into a format that our PyTorch Model can Easily Understand
- ![](file:///D:\Projects\Pytorch\Chatbot%20with%20Pytorch\SS\ss9.png)
+ ![](SS\ss9.png)
  
     One hot encoding Is the process of splitting multiclass or multi valued data column to separate columns and labelling the cell 1 in the row where it exists. (we won’t use it so don’t worry about it)
 
